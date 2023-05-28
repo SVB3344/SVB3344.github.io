@@ -1,0 +1,24 @@
+.footer{
+  position: relative;
+  padding: 10px 0 0 0;
+  background: #4b547b;
+}
+.footer__section{
+  width: 1170px;
+  margin: 0 auto;
+  position:relative;
+  display:flex;
+  justify-content: space-between;
+}
+.footer__section .logo_img{
+  display: block;
+  float: left;
+  max-width: 270px;
+  margin: auto 0;
+}
+
+.phone-and-address{
+  float: right;
+    text-align: right;
+    max-width: 265px;
+}

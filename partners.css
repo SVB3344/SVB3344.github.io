@@ -1,0 +1,57 @@
+.partners{
+  background-color: #ffffff;
+  background-image: url(/img/innovation1.jpg);
+ position:relative;
+}
+
+.partners__image {
+  width: 172px;
+  height: 120px;
+  overflow: hidden;
+  box-sizing: border-box;
+  border: 1px solid #e2e2e2;
+  margin-left: 20px;
+  margin-bottom: 20px;
+  background-color: #fff;
+  position: relative;
+}
+.partners__img{
+  height: 100%;
+  width: 100%;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: 75% auto;
+}
+.partners__section{
+  padding-top: 80px;
+  padding-bottom: 80px;
+  position:relative;
+  width: 940px;
+  margin: 0 auto;
+}
+.partners__section .title{
+  text-align: center;
+  font-size: 42px;
+  margin-bottom: 10px;
+  line-height: normal;
+}
+.partners__section .subtitle{
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+.partners__list{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -20px;
+
+}
+.dark{
+  opacity: 0.9;
+  background: linear-gradient(to bottom, #ffffff 0% ,#fff 100% );
+  position: absolute;
+  height: 100%;
+  top: 0;
+    left: 0;
+    width: 100%;
+}

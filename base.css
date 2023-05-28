@@ -1,0 +1,61 @@
+.text{
+  
+}
+a {
+  background-color: transparent;
+  text-decoration: none;
+  font-family: Montserrat;
+}
+
+a:active,a:hover {
+  outline: 0;
+  opacity: 0.8;
+}
+img{
+  max-width: 100%;
+    max-height: none;
+}
+.title{
+  font-family: Montserrat;
+  font-weight: 500;
+  font-size: 40px;
+  color: #4b547b;
+}
+.subtitle{
+  font-family: Montserrat;
+  font-weight: 400;
+  margin: 20px 0;
+  font-size: 24px;
+}
+.text{
+  font-family: Montserrat;
+  font-weight: 300;
+  margin: 20px 0;
+  font-size: 18px;
+}
+.price{
+  font-family: Montserrat;
+  font-weight: 400;
+  margin: 20px 0;
+  font-size: 24px;
+}
+.section{
+  width: 100%;
+  min-width: 1170px;
+  padding: 40px 0;
+  line-height: 1.4;
+  background-position: center center;
+  background-repeat: repeat;
+  transition: .5s;
+  opacity: 1;
+  margin: 0 auto;
+}
+p {
+  padding: 0;
+  margin: 0;
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
